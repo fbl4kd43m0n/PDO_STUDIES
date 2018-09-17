@@ -6,7 +6,7 @@ Autor: Franciny Salles
 
 <?php
 
-class sql extends PDO {
+class Sql extends PDO {
 	
 	private $conn;
 	
