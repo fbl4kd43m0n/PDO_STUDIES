@@ -12,7 +12,7 @@ class Sql extends PDO {
 	
 	public function __construct(){
 		
-		$this->conn = new PDO("mysql:host=localhost;dbname=db", "user","pass");
+		$this->conn = new PDO("mysql:host=localhost;dbname=db", "user","password");
 		
 	}
 	
@@ -51,6 +51,7 @@ class Sql extends PDO {
 		return $stmt->fetchAll(PDO::FETCH_ASSOC);
 		
 	}
-		
+	
+}	
 
 ?>
